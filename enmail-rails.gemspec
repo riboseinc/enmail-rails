@@ -6,12 +6,11 @@ require "enmail/rails/version"
 Gem::Specification.new do |spec|
   spec.name          = "enmail-rails"
   spec.version       = Enmail::Rails::VERSION
-  spec.authors       = ["Sebastian Skałacki"]
-  spec.email         = ["skalee@gmail.com"]
+  spec.authors       = ["Ribose Inc."]
+  spec.email         = ["open.source@ribose.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = "Encrypted Email in Action Mailer"
+  spec.homepage      = "https://github.com/riboseinc/enmail-rails"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'

@@ -1,3 +1,6 @@
+# (c) 2018 Ribose Inc.
+#
+
 require "simplecov"
 SimpleCov.start
 

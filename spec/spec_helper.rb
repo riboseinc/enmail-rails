@@ -11,6 +11,7 @@ end
 
 require "bundler/setup"
 require "enmail/rails"
+Bundler.require(:default, :development)
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure

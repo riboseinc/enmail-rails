@@ -24,6 +24,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
+  spec.add_runtime_dependency "actionmailer", "~> 5.2.0"
   spec.add_runtime_dependency "enmail" # TODO ">= 0.2" when released
 
   spec.add_development_dependency "bundler", "~> 1.16"

@@ -2,8 +2,8 @@
 
 image:https://img.shields.io/gem/v/enmail-rails.svg[
 	Gem Version, link="https://rubygems.org/gems/enmail-rails"]
-image:https://travis-ci.org/riboseinc/enmail-rails/master.svg[
-	Build Status, link="https://travis-ci.org/riboseinc/enmail-rails"]
+image:https://img.shields.io/travis/riboseinc/enmail-rails/master.svg[
+	Build Status, link="https://travis-ci.org/riboseinc/enmail-rails/branches"]
 image:https://img.shields.io/codecov/c/github/riboseinc/enmail-rails.svg[
 	Test Coverage, link="https://codecov.io/gh/riboseinc/enmail-rails"]
 image:https://img.shields.io/codeclimate/maintainability/riboseinc/enmail-rails.svg[

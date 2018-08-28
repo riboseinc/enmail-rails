@@ -2,7 +2,6 @@
 
 class MailInterceptor
   class << self
-
     def adapter_class
       ::EnMail::Adapters::RNP
     end
@@ -55,7 +54,7 @@ class MailInterceptor
           signer: signers,
         )
       end
-    rescue Exception
+    rescue StandardError
       raise $! if mail.raise_encryption_errors
     ensure
       mail[:enmail_options] = nil

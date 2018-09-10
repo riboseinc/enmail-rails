@@ -3,7 +3,7 @@
 
 require "enmail/rails/version"
 
-module Enmail
+module EnMail
   module Rails
     # Your code goes here...
   end

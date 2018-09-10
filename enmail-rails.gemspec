@@ -7,7 +7,7 @@ require "enmail/rails/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "enmail-rails"
-  spec.version       = Enmail::Rails::VERSION
+  spec.version       = EnMail::Rails::VERSION
   spec.authors       = ["Ribose Inc."]
   spec.email         = ["open.source@ribose.com"]
 
